@@ -1,0 +1,28 @@
+.details-page .border{
+    border-color: dimgray !important;
+}
+.details-page p{
+    color: #666;
+}
+.details-page .gold-stars{
+    color: gold;
+}
+.details-page .hotel-name{
+    color: rgb(6, 62, 136);
+}
+.details-page .review-count{
+    color: rgb(95, 160, 133);
+}
+.details-page .host-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.details-page .features svg{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    color: #666;
+    width: 15px;
+}

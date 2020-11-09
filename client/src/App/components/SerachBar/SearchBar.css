@@ -1,0 +1,58 @@
+
+.search-bar-component{
+    background-image: url("../../../assests/images/search-bg.png");
+    padding: 10px;
+    position: relative;
+    z-index: 0;
+}
+.search-bar-component::after{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(57, 57, 126, 0.63);
+}
+
+.search-bar-component__box{
+    display: flex;
+    align-items: center;
+    border: 0;
+    border-right: 3px solid rgb(233, 180, 34);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #888;
+
+}
+.search-boxes{
+    border-radius: 5px;
+    border: 3px solid rgb(233, 180, 34);
+    background: #fff;
+}
+.search-bar-component .btn {
+    padding: 8px 20px;
+    border-radius: 0;
+}
+.search-bar-component__box .form-control{
+    border: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+.search-bar-component__box .form-control:focus{
+    box-shadow: none ;
+}
+.search-bar-component__box svg{
+    color: rgb(199, 199, 199);
+}
+
+@media (max-width: 777px) {
+    .search-bar-component__box{
+        border-right: 0;
+    }
+    .search-bar-component .btn{
+        display: block;
+        width: 100%;
+    }
+}

@@ -1,0 +1,25 @@
+.header-component__search-bar{
+    box-shadow: 0 0 3px #00000038;
+    border-radius: 5px;
+}
+.header-component__search-bar .form-control:focus{
+    box-shadow: 0;
+}
+.header-component__search-box{
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #eee;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: #888;
+
+}
+.header-component__search-box .form-control{
+    border: 0;
+}
+.header-component__search-box .form-control:focus{
+    box-shadow: none;
+}
+.navbar-light .navbar-nav .nav-link{
+    font-weight: 500;
+}
