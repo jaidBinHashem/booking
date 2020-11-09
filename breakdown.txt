@@ -1,0 +1,13 @@
+1. Setup the project (Frontend and Backend)(4 hours)
+2. Headers UI (4 hours)
+3. Search Panel UI (3)
+4. Landing page UI (3 hours)
+5. Search Results UI (3 hours)
+6. Details Page UI (5)
+7. Mock data API for Landing Page (1 hour)
+8. CRUD API to add properties (4)
+9. UI For Property CRUD (5)
+10. Search API (3)
+11. Booking API (4)
+12. Ratting API (2)
+13. UI For USER Ratting
